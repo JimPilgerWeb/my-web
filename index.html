@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Website Coming Soon</title>
+
 <style>
 body {
     margin: 0;
@@ -12,6 +13,7 @@ body {
     color: #333;
     text-align: center;
 }
+
 .container {
     max-width: 700px;
     margin: 100px auto;
@@ -20,49 +22,55 @@ body {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
+
 h1 {
     font-size: 42px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
+
+header img {
+    float: left;          /* Moves image to left */
+    width: 220px;        /* Adjust size */
+    margin: 0 25px 15px 0;
+    border-radius: 8px;
+}
+
 p {
     font-size: 18px;
     color: #666;
     line-height: 1.6;
+    text-align: left;
 }
-.contact {
-    margin-top: 30px;
-    font-size: 20px;
-}
-.contact a {
-    color: #0078d4;
-    text-decoration: none;
-}
+
 .footer {
+    clear: both;         /* Keeps footer below image/text */
     margin-top: 40px;
     font-size: 14px;
     color: #999;
+    text-align: center;
 }
 </style>
 </head>
+
 <body>
 
 <div class="container">
+
     <h1>We're Rebuilding Our Website</h1>
-<header>
-    <img src="NeedTravel_750px_20100131.jpg" alt="NeedTravel" />
-    <p>
-        Our new website is currently under construction and will be launching soon.
-        We look forward to serving you with a fresh new experience.
-    </p>
-<!---
-    <div class="contact">
-        📧 <a href="mailto:info@yourdomain.com">info@yourdomain.com</a><br><br>
-        📞 (555) 123-4567
-    </div>
--->
+
+    <header>
+        <img src="NeedTravel_750px_20100131.jpg" alt="NeedTravel">
+
+        <p>
+            Our new website is currently under construction and will be launching soon.
+            We look forward to serving you with a fresh new experience.
+        </p>
+    </header>
+<!--- <div class="contact"> 📧 <a href="mailto:info@yourdomain.com">info@yourdomain.com</a><br><br> 📞 (555) 123-4567 </div> -->
     <div class="footer">
         Thank you for your patience.
     </div>
+
 </div>
 
 </body>
